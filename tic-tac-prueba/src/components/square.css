@@ -1,0 +1,31 @@
+.square-container{
+    border: 1px solid white;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px rgba(154, 130, 130, 0.542);
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.square-container:hover{
+    cursor: pointer;
+}
+
+.square-container:active{
+    background-color: white;
+    color: black;
+}
+
+.is-active{
+    background-color: blue;
+}
